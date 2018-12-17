@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="data">
+        <div class="buttons">
+            <form id="buttons">
+                <input type="radio" name="difficulty" value="easy" checked>fácil<br>
+                <input type="radio" name="difficulty" value="medium">medio<br>
+                <input type="radio" name="difficulty" value="hard">dificil<br>
+                <button type="button" id="start">start</button>
+            </form>
+        </div>
+        <div class="clicks">
+            <p id="clicks">0 clicks</p>
+            <p id="points">0 points</p>
+        </div>
+        <div class="guessedCards" id="guessedCards">
+        </div>
+    </div>
+    <div class="board" id="board">
+    </div>
+</body>
+
+</html>
