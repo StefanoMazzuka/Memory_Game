@@ -22,6 +22,12 @@ div.clicks {
     margin-left: 40px;
 }
 
+div.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div.board {
     display: flex;
     flex-direction: column;
