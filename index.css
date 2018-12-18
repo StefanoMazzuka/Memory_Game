@@ -42,23 +42,25 @@ div.board {
     justify-content: center;
 }
 
-.card {
+div.cardContainer {   
     background-color: antiquewhite;
     border: solid black;
-    max-width: 100%;
-    max-height: 100%;
+    width: 80xp;
+    height: 80px;    
     border-radius: 25%;
     padding: 10px;
     margin: 5px;
 }
 
-.cardHidden {
-    visibility: hidden;
-    border: solid;
+.card {
     max-width: 100%;
     max-height: 100%;
-    padding: 10px;
-    margin: 5px;
+}
+
+.cardHidden {
+    visibility: hidden;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #start {

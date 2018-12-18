@@ -93,7 +93,7 @@ $(function () {
             for (let i = 0; i < currentCards.length; i++) {
                 $('#board').append(`<div class="row" id="row${row}">`);
                 for (let j = 0; j < numColumns; j++) {
-                    $(`#row${row}`).append($(`<div><img id="${i}" alt="${currentCards[i]}" class="card" src="./img/question_mark.png"/></div>`));
+                    $(`#row${row}`).append($(`<div class="cardContainer"><img id="${i}" alt="${currentCards[i]}" class="card" src="./img/question_mark.png"/></div>`));
                     if (j != numColumns - 1) i++;
                 }
                 row++;
