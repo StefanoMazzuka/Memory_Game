@@ -91,9 +91,9 @@ $(function () {
             let row = 0;
             let currentCards = createCurrentCards(size);
             for (let i = 0; i < currentCards.length; i++) {
-                $('#board').append(`<div id="row${row}">`);
+                $('#board').append(`<div class="row" id="row${row}">`);
                 for (let j = 0; j < numColumns; j++) {
-                    $(`#row${row}`).append($(`<img id="${i}" alt="${currentCards[i]}" class="card" src="./img/question_mark.png"/>`));
+                    $(`#row${row}`).append($(`<div><img id="${i}" alt="${currentCards[i]}" class="card" src="./img/question_mark.png"/></div>`));
                     if (j != numColumns - 1) i++;
                 }
                 row++;

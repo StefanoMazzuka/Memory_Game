@@ -33,13 +33,20 @@ div.board {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-} 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .card {
     background-color: antiquewhite;
     border: solid black;
-    height: 80px;
-    width: 80px;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 25%;
     padding: 10px;
     margin: 5px;
@@ -48,23 +55,23 @@ div.board {
 .cardHidden {
     visibility: hidden;
     border: solid;
-    height: 80px;
-    width: 80px;
+    max-width: 100%;
+    max-height: 100%;
     padding: 10px;
     margin: 5px;
 }
 
 #start {
     margin-top: 20px;
-	border: solid 1px #000000;
+    border: solid 1px #000000;
     border-radius: 20px 3px 20px 4px;
     font-family: 'Major Mono Display', monospace;
-	font-size: 20px;
-	color: #ffffff;
-	padding: 1px 17px;
-	background: #faa91e;
-	background: -moz-linear-gradient(top, #faa91e 0%, #ab3c00 100%);
-	background: -webkit-linear-gradient(top, #faa91e 0%, #ab3c00 100%);
-	background: -o-linear-gradient(top, #faa91e 0%, #ab3c00 100%);
-	background: linear-gradient(top, #faa91e 0%, #ab3c00 100%);
+    font-size: 20px;
+    color: #ffffff;
+    padding: 1px 17px;
+    background: #faa91e;
+    background: -moz-linear-gradient(top, #faa91e 0%, #ab3c00 100%);
+    background: -webkit-linear-gradient(top, #faa91e 0%, #ab3c00 100%);
+    background: -o-linear-gradient(top, #faa91e 0%, #ab3c00 100%);
+    background: linear-gradient(top, #faa91e 0%, #ab3c00 100%);
 }
