@@ -77,6 +77,7 @@ $(function () {
 
             $('#clicks').text(`${clicks} clicks`);
             $('#points').text(`${points} points`);
+            $('#bestClicks').text('');
 
             // Creamos el tablero
             let difficulty = $("#buttons input[type='radio']:checked").val();
